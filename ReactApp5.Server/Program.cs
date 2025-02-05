@@ -22,7 +22,7 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 
 app.MapControllers();
-
+//SPA
 app.MapFallbackToFile("/index.html");
 
 app.Run();
